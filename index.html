@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap Css -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     
+     <!-- Fontawsome Css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer">
+
+    <!-- own css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;400&family=Oswald:wght@200;500&family=Quicksand&family=Roboto:wght@300&display=swap" rel="stylesheet">
+   
+    <title>bibliophile</title>
+</head>
+<body class="main">
+  <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light ">
+        <div class="container-fluid " >
+          <a  class="navbar-brand " href="#" ><h1 class="pip">Bibliophile</h1></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item ">
+                
+                <a id="home" class="nav-link active pipo" aria-current="page" href="#">Home</a>
+              </li>
+              
+              <li class="nav-item dropdown ">
+                <a class="nav-link active dropdown-toggle pipo" href="#" id="navbarDropdown " role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Category
+                </a>
+                
+                <ul class="dropdown-menu down" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item pipo" href="#">action</a></li>
+                  <li><a class="dropdown-item pipo" href="#">another action</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item pipo" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                
+                <a class="nav-link active pipo" aria-current="page" href="#">My Books</a>
+              </li>
+              
+              <li class="nav-item">
+                <a class="nav-link active pipo" href="#" tabindex="-1" aria-disabled="true">Browse</a>
+              </li>
+            </ul>
+        
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search books" aria-label="Search" >
+              <button id="search" class="btn btn-outline-success" type="submit">Search </button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <!-- nav bar end -->
+    
+
+<h1 class="text-center main-text py-5"> Imagine <span class="redcol"> beyond </span>  imagination</h1>
+</div>
+<div class="container-fluid">
+  <div class="row bana">
+    <div class="col-md-6 banner"><p class="ban">INDIAS BIGGEST BOOK STORE.</p>
+       <p>GET ALL THE BOOKS ON AFFORTABLE PRICES. UPTO 70% DISCOUNT ON ALL BOOKS AND COMBOS GRAB YOUR FAVORITE BOOK NOW !!!</p>
+       <a class="btn btn-outline-info my-btn" href="#">Know more</a> 
+    </div>
+    <div class="col-md-6">
+      <img class="card-img-top pic" src="./pictures/hero.png" alt="">
+    </div>
+
+  </div>
+</div>
+ <!-- carousel start -->
+ 
+ <div id="carouselExampleCaptions" class="carousel slide car" data-bs-ride="carousel">
+  <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./pictures/car1.png" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>It Starts With Us </h5>
+        <p>Some representative placeholder content for the first slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./pictures/car2.png" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>Dirty Air Series</h5>
+        <p>Some representative placeholder content for the second slide.</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="./pictures/car3.png" class="d-block w-100">
+      <div class="carousel-caption d-none d-md-block">
+        <h5>The Folk Of The Air Series</h5>
+        <p>Some representative placeholder content for the third slide.</p>
+      </div>
+    </div>
+    
+  
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div> -->
+
+
+<!-- carousel end -->
+
+ <!-- products -->
+ <div class="container-fluid">
+  <h1 class=" main-text"> MYTHOLOGICAL 
+   </h1>
+    <div class="row">
+        <div class="col-md-3">
+            <div class="card mycard card-css" style="width: 18rem;">
+                <img src="./pictures/narasimha.jpg" class="card-img-top cart-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title ">Narasimha</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mycard card-css" style="width: 18rem;">
+                <img src="./pictures/WAR.webp" class="card-img-top cart-img" alt="...">
+
+                <div class="card-body">
+                  <h5 class="card-title ">War Of Lanka</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mycard card-css" style="width: 18rem;">
+                <img src="./pictures/naga.webp" class="card-img-top cart-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">The Secret Of The Nagas
+                  </h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+        </div>
+        <div class="col-md-3">
+            <div class="card mycard card-css" style="width: 18rem;">
+                <img src="./pictures/durga.jpg" class="card-img-top cart-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Durga</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+        </div>
+       
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-3">
+        <div class="card mycard card-css" style="width: 18rem;">
+            <img src="./pictures/kalki1.jpg" class="card-img-top cart-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Dharmyoddha Kalki</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card mycard card-css" style="width: 18rem;">
+            <img src="./pictures/kalki2.jpg" class="card-img-top cart-img" alt="...">
+
+            <div class="card-body">
+              <h5 class="card-title">Satyayoddha Kalki</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card mycard card-css" style="width: 18rem;">
+            <img src="./pictures/kalki3.jpg" class="card-img-top cart-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Mahayoddha Kalki
+              </h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card mycard card-css" style="width: 18rem;">
+                <img src="./pictures/hindu.jpg" class="card-img-top cart-img" alt="...">
+    
+                <div class="card-body">
+                  <h5 class="card-title">The Hidden Hindu</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+        </div>
+          
+      </div>
+
+
+
+    <h1 class=" main-text"> BESTSELLERS
+    </h1>
+
+    <div class="row">
+      <div class="col-md-3">
+          <div class="card mycard card-css" style="width: 18rem;">
+              <img src="./pictures/start.jpg" class="card-img-top cart-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title ">It Starts With Us</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card mycard card-css" style="width: 18rem;">
+              <img src="./pictures/ends.jpg" class="card-img-top cart-img" alt="...">
+
+              <div class="card-body">
+                <h5 class="card-title ">It Ends With Us</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card mycard card-css" style="width: 18rem;">
+              <img src="./pictures/love.jpg" class="card-img-top cart-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">The Love Hypothesis
+
+                </h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+      </div>
+      <div class="col-md-3">
+          <div class="card mycard card-css" style="width: 18rem;">
+              <img src="./pictures/archer.jpg" class="card-img-top cart-img" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Archer's Voice</h5>
+                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+      </div>
+     
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-3">
+      <div class="card mycard card-css" style="width: 18rem;">
+          <img src="./pictures/verity.jpg" class="card-img-top cart-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Verity</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-3">
+      <div class="card mycard card-css" style="width: 18rem;">
+          <img src="./pictures/spanish.jpg" class="card-img-top cart-img" alt="...">
+
+          <div class="card-body">
+            <h5 class="card-title">The Spanish Love</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-3">
+      <div class="card mycard card-css" style="width: 18rem;">
+          <img src="./pictures/sam.webp" class="card-img-top cart-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">You Have Reached Sam
+            </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-3">
+    <div class="card mycard card-css" style="width: 18rem;">
+        <img src="./pictures/print.jpg" class="card-img-top cart-img" alt="...">
+
+        <div class="card-body">
+          <h5 class="card-title">The Fine Print</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Add to cart</a>
+        </div>
+      </div>
+</div>
+   
+   </div>
+
+
+
+
+   <h1 class=" main-text"> DETECTIVE
+  </h1>
+
+  <div class="row">
+    <div class="col-md-3">
+        <div class="card mycard card-css" style="width: 18rem;">
+            <img src="./pictures/SHERLOCK.jpg" class="card-img-top cart-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title ">Sherlock Holmes</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card mycard card-css" style="width: 18rem;">
+            <img src="./pictures/byomkesh.jpg" class="card-img-top cart-img" alt="...">
+
+            <div class="card-body">
+              <h5 class="card-title ">Byomkesh Samagra
+                
+              </h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card mycard card-css" style="width: 18rem;">
+            <img src="./pictures/feluda.jpg" class="card-img-top cart-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Feluda
+
+              </h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+    </div>
+    <div class="col-md-3">
+        <div class="card mycard card-css" style="width: 18rem;">
+            <img src="./pictures/Darogar-Daptar.jpg" class="card-img-top cart-img" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Darogar Daptar</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Add to cart</a>
+            </div>
+          </div>
+    </div>
+   
+</div>
+</div>
+
+
+<h1 class=" main-text"> CLASSICS
+</h1>
+
+<div class="row">
+  <div class="col-md-3">
+      <div class="card mycard card-css" style="width: 18rem;">
+          <img src="./pictures/count.jpg" class="card-img-top cart-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title ">The Count Of Monte Cristo</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-3">
+      <div class="card mycard card-css" style="width: 18rem;">
+          <img src="./pictures/musketeers.jpg" class="card-img-top cart-img" alt="...">
+
+          <div class="card-body">
+            <h5 class="card-title ">The Three Musketeers
+              
+            </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-3">
+      <div class="card mycard card-css" style="width: 18rem;">
+          <img src="./pictures/gatsby.jpg" class="card-img-top cart-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">The Great Gatsby
+
+            </h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+  </div>
+  <div class="col-md-3">
+      <div class="card mycard card-css" style="width: 18rem;">
+          <img src="./pictures/night.jpg" class="card-img-top cart-img" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Twelfth Night</h5>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <a href="#" class="btn btn-primary">Add to cart</a>
+          </div>
+        </div>
+  </div>
+ 
+</div>
+</div>
+ 
+ </div>
+    
+<!-- products end -->
+
+ <div class="container-fluid">
+  <div class="row bana">
+    <div class="col-md-6">
+      <img class="card-img-top pic" src="./pictures/hero1.png" alt="">
+    </div>
+    <div class="col-md-6 banner"><p class="ban">You're are one step away to make a good habit</p>
+       <p>Shop your favourite book now!!!</p>
+       <a class="btn btn-outline-primary my-btn" href="#">Shop now</a> 
+    </div>
+    
+
+  </div>
+</div>
+</div>
+</div>
+
+<div class="faq "><p class="faq1">FAQ's</p>
+  <p >Most frequent questions and answers</p>
+  <p >Please ADD the books you want to purchase TO THE CART. Then click on PROCEED TO CHECKOUT. Next, on the checkout page, enter all necessary details asked for. Also, do not forget to select your desired shipping method and payment method. Finally, click on PLACE ORDER. This will lead you to Razor pay online payment page if you opted for online payment OR to the order confirmation page if you opted for COD. That’s it!</p>
+  <p>DO YOU DELIVER ALL OVER INDIA?</p>
+  <p>Yes we do! We have our guaranteed home delivery service across the country. Above 28000 pincodes are serviceable as of now</p>
+
+
+
+</div >
+<div class="ending">
+  <p class="about">ABOUT US</p>
+  <p class="last"> <a href="#">Search</a></p>
+  <p class="last"><a href="#">Privacy Policy</a></p>
+  <p class="last"><a href="#">Terms of Service</a></p>
+  <p class="last"><a href="#">Return Refund and Exchange</a></p>
+  <p class="last"><a href="#">Contact Us</a></p>
+
+</div>
+
+<script language="javascript" type="text/javascript"> 
+  document.write("Hello World")        
+</script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

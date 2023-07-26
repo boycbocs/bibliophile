@@ -1,0 +1,98 @@
+.redcol
+{
+    color: red;
+}
+.main-text
+{
+    color: aliceblue;
+    font-size: 42px;
+    font-weight: bold;
+    padding: 20px;
+    font-family: 'quicksand';
+    padding-left: 30px;
+    padding-top: 15px;
+}
+.main
+{
+    background-color: rgb(36, 30, 30);
+}
+.card-css
+{
+  background-color: rgb(36, 30, 30);
+  color: aliceblue;
+}
+.pip
+{
+    color: aliceblue;
+    font-size: 23px;
+}
+.pipo
+{
+    color: aliceblue !important;
+}
+.banner
+{
+    color: aliceblue;
+    font-size: 35px;
+    font-family: 'quicksand';
+}
+.ban
+{
+    font-weight: bolder;
+    font-size: 50px;
+    padding-top: 140px;
+}
+.my-btn
+{
+    padding: 10px;
+}
+.bana{
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.car
+{
+    padding-top: 50px;
+}
+.pic
+{
+    padding: 70px;
+}
+.faq1
+{
+    font-size: 90px;
+    color: azure;
+    font-family: 'oswald';
+}
+.faq
+{
+    padding-left: 350px ;
+    padding-right: 300px;
+    color: azure;
+    font-size: 22px;
+    font-family: 'roboto';
+}
+.about
+{
+    padding-top: 50px;
+    
+    padding-left: 50px;
+    color: azure;
+    font-family: 'oswald';
+
+}
+.last
+{
+    padding-left: 70px;
+    
+ 
+}
+.ending
+{
+    background-color: rgb(47, 38, 38);
+}
+.down
+{
+    color: azure;
+    background-color: rgb(36, 30, 30);
+}
